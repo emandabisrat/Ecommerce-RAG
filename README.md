@@ -4,7 +4,7 @@
 Amazon Product Dataset 2020 · CLIP · ChromaDB · Claude
  
 A multimodal RAG chatbot that answers product questions using both text and
-image inputs, powered by CLIP embeddings and Claude as the LLM backbone.
+image inputs, powered by CLIP embeddings and Ollama as the LLM backbone.
  
 ---
  
