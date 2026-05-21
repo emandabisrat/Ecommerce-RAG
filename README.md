@@ -48,9 +48,9 @@ pip install -r requirements.txt
 ```bash
 cp .env.example .env
 # Edit .env and fill in:
-#   ANTHROPIC_API_KEY  → https://console.anthropic.com/
-#   KAGGLE_USERNAME    → from https://www.kaggle.com/account
-#   KAGGLE_KEY         → from https://www.kaggle.com/account
+#   OLLAMA_API_KEY   
+#   KAGGLE_USERNAME   
+#   KAGGLE_KEY         
 ```
  
 ### 3. Download the dataset
@@ -134,7 +134,7 @@ User Query (text + optional image)
              │
              ▼
   ┌──────────────────────┐
-  │  Claude claude-opus-4-5 (LLM) │
+  │  LlAVa  (LLM) │
   └──────────┬───────────┘
              │
              ▼
@@ -158,34 +158,13 @@ User Query (text + optional image)
 | multi_shot | Comparisons, recommendations |
  
 ---
- 
-## Configuration
- 
-Edit `config.py` to tune:
- 
-| Parameter       | Default | Description |
-|-----------------|---------|-------------|
-| `MAX_PRODUCTS`  | 5000    | How many rows to use |
-| `TOP_K`         | 5       | Retrieved products per query |
-| `CLIP_MODEL_NAME` | ViT-B-32 | CLIP variant |
-| `LLM_MODEL`     | claude-opus-4-5 | Claude model |
- 
----
+
  
 ## Evaluation
  
 The retrieval system is evaluated using self-retrieval (each product's description
 is used as a query; we check if the product appears in top-K results).
  
-Example results:
- 
-| Metric    | Score |
-|-----------|-------|
-| Recall@1  | ~0.72 |
-| Recall@5  | ~0.91 |
-| Recall@10 | ~0.95 |
- 
----
  
 ## References
  
@@ -193,4 +172,3 @@ Example results:
 - [RAG Paper](https://arxiv.org/abs/2005.11401) – Lewis et al., 2020
 - [open_clip](https://github.com/mlfoundations/open_clip)
 - [ChromaDB](https://www.trychroma.com/)
-- [Anthropic Claude](https://www.anthropic.com/)
