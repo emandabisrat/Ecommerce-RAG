@@ -1,4 +1,5 @@
 # Ecommerce Multi-Modal Product Chatbot 
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/fd2d87ec-3c75-472c-8040-7f73bcd30a0f" />
 
 Amazon Product Dataset 2020 · CLIP · ChromaDB · Claude
  
