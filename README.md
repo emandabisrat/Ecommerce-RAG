@@ -1,4 +1,4 @@
-# Ecommerce Multi-Modal Product Chatbot 
+# Amazon Ecommerce Multi-Modal Product Chatbot 
 <img width="1200" height="573" alt="image" src="https://github.com/user-attachments/assets/83383de3-7bd9-472f-8af9-83dd27ba1312" />
 
 Amazon Product Dataset 2020 · CLIP · ChromaDB · Ollama
