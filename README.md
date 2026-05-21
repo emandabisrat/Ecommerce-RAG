@@ -1,7 +1,7 @@
 # Ecommerce Multi-Modal Product Chatbot 
-<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/fd2d87ec-3c75-472c-8040-7f73bcd30a0f" />
+<img width="1200" height="573" alt="image" src="https://github.com/user-attachments/assets/83383de3-7bd9-472f-8af9-83dd27ba1312" />
 
-Amazon Product Dataset 2020 · CLIP · ChromaDB · Claude
+Amazon Product Dataset 2020 · CLIP · ChromaDB · Ollama
  
 A multimodal RAG chatbot that answers product questions using both text and
 image inputs, powered by CLIP embeddings and Ollama as the LLM backbone.
